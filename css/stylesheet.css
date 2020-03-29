@@ -11,5 +11,39 @@
 
 body {
   font-family: chaneyultra_extended;
-  color: #000000;
+  font-size: 24px;
+  background-color: #cfffaf;
+  line-height: 1.25;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+  transition: backgroud 1s;
+}
+
+h1 {
+  font-size: 45px;
+  text-indent: -0.7em;
+}
+h1.long {
+  font-size: 30px;
+}
+h1,
+p {
+  width: 740px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
 }
